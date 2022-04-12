@@ -1,7 +1,7 @@
 
 # parcelLab SRE challenge - “Hello World”
 
-- Create a “Hello World” greetings service (REST-API)  which responds with different salutations for customers (there won’t be further purpose for this API, just one GET endpoint is fine)
+- Create a “Hello World” greetings service (REST-API) which responds with different salutations for customers (there won’t be further purpose for this API, just one GET endpoint is fine)
     - Customer A wants to say “Hi”, customer B wants to say “Dear Sir or Madam”, customer C wants to say “Moin” and so on.
     - Choose whatever programming language and framework you think might be the best fit
     - Describe or implement the necessary things to ensure “good quality“ for your product
@@ -9,6 +9,7 @@
 - Implement a deployment pipeline script which deploys the container to a kubernetes cluster (local is fine) and exposes endpoints
     - your application should greet with “Hi” on the service for customer A
     - your application should greet with “Dear Sir or Madam” on the service for customer B
+    - your application is deployed for each customer individually
 
 ## Our expectations
 
